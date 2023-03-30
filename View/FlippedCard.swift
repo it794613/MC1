@@ -20,8 +20,7 @@ struct FlippedCard: View {
                     VStack{
                         HStack{
                             Spacer()
-                            Text("12'o Clock")
-                                .foregroundColor(.white).font(.system(size: 12, weight: .semibold))
+                            Image("12 O’CLOCK")
                                 .padding([.top,.trailing], 20)
                         }
                         Spacer()

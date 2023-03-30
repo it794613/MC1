@@ -149,8 +149,8 @@ struct SwipeView: View {
     
     var Chevronimage : some View {
         Image(systemName: "chevron.up").padding(.bottom, 5)
-            .offset(y: isMoving ? 0 : -2)
-            .animation(.linear(duration: 1).repeatForever(), value: isMoving)
+            .offset(y: isMoving ? 0 : -8)
+            .animation(.linear(duration: 0.7).repeatForever(), value: isMoving)
     }
     
     
